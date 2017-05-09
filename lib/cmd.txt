@@ -1,0 +1,7 @@
+//sequelize-auto -o "./models" -d sequelize_auto_test -h localhost -u my_username -p 5432 -x my_password -e postgres
+
+sequelize-auto -o "./models" -d db_jjb2 -h rm-wz9aw66244246219ho.mysql.rds.aliyuncs.com -u jingjibang -p 3306 -x J@3h;C9r -e mysql -t videotemplate
+sequelize-auto -o "./models" -d db_jjb2 -h rm-wz9aw66244246219ho.mysql.rds.aliyuncs.com -u jingjibang -p 3306 -x J@3h;C9r -e mysql -t videoimage
+sequelize-auto -o "./models" -d db_jjb2 -h rm-wz9aw66244246219ho.mysql.rds.aliyuncs.com -u jingjibang -p 3306 -x J@3h;C9r -e mysql -t videosubtitle
+sequelize-auto -o "./models" -d db_jjb2 -h rm-wz9aw66244246219ho.mysql.rds.aliyuncs.com -u jingjibang -p 3306 -x J@3h;C9r -e mysql -t wx_token
+

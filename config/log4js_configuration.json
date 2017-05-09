@@ -1,0 +1,24 @@
+{
+  "appenders":
+  [
+    {
+      "category":"error",
+      "type": "dateFile",
+      "filename": "./logs/error/",
+      "alwaysIncludePattern":true,
+      "pattern": "yyyy-MM-dd-hh.log"
+    },
+    {
+      "category":"info",
+      "type": "dateFile",
+      "filename": "./logs/info/",
+      "alwaysIncludePattern":true,
+      "pattern": "yyyy-MM-dd-hh.log"
+    }
+  ],
+  "levels":
+  {
+    "error":"ERROR",
+    "info":"ALL"
+  }
+}
