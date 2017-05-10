@@ -3,5 +3,5 @@
 sequelize-auto -o "./models" -d db_jjb2 -h rm-wz9aw66244246219ho.mysql.rds.aliyuncs.com -u jingjibang -p 3306 -x J@3h;C9r -e mysql -t videotemplate
 sequelize-auto -o "./models" -d db_jjb2 -h rm-wz9aw66244246219ho.mysql.rds.aliyuncs.com -u jingjibang -p 3306 -x J@3h;C9r -e mysql -t videoimage
 sequelize-auto -o "./models" -d db_jjb2 -h rm-wz9aw66244246219ho.mysql.rds.aliyuncs.com -u jingjibang -p 3306 -x J@3h;C9r -e mysql -t videosubtitle
-sequelize-auto -o "./models" -d db_jjb2 -h rm-wz9aw66244246219ho.mysql.rds.aliyuncs.com -u jingjibang -p 3306 -x J@3h;C9r -e mysql -t wx_token
+sequelize-auto -o "./model" -d app -h 120.77.63.42 -u root -p 3306 -x root -e mysql -t user
 
