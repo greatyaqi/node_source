@@ -6,8 +6,6 @@
     "koa": "^2.2.0",
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.1.1",
-    "koa-session": "^5.0.0",
-    "koa-session2": "^2.2.3",
     "log4js": "^1.1.1",
     "moment": "^2.18.1",
     "mysql": "^2.13.0",
