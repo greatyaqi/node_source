@@ -23,7 +23,8 @@ const userController = {
             let sessionId = session.setSession(JSON.stringify(user));
             session.verifySession(sessionId);
             session.saveSession(sessionId, JSON.stringify(user), 30 * 60);
-            ctx.body = { "code": 200, "msg": "success", data: { "sessionId": sessionId } }
+            ctx.cookies.set("userInfo", sessionId);
+            ctx.body = { "code": 200, "msg": "success", data: { "userInfo": sessionId } }
         } catch (err) {
             console.log("controller.user.sign:" + err);
         }
@@ -31,6 +32,7 @@ const userController = {
 
     login: async(ctx) => {
         try {
+            let userInfo = ctx.request.body.userInfo;
 
         } catch (err) {
 
